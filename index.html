@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>riven-images</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; color: #1f2937; }
+    h1 { margin-bottom: 10px; }
+    p { line-height: 1.6; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #d1d5db; padding: 10px; text-align: left; }
+    th { background: #f9fafb; }
+    code { background: #f3f4f6; padding: 2px 6px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>riven-images</h1>
+  <p>This GitHub Pages site serves static image assets for client and platform specific publishing workflows.</p>
+  <table>
+    <thead>
+      <tr><th>Level</th><th>Pattern</th><th>Example</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Client</td><td><code>clients/&lt;client&gt;/</code></td><td><code>clients/nmnlabo/</code></td></tr>
+      <tr><td>Platform</td><td><code>clients/&lt;client&gt;/&lt;platform&gt;/</code></td><td><code>clients/nmnlabo/pinterest/</code></td></tr>
+      <tr><td>Public asset URL</td><td><code>/clients/&lt;client&gt;/&lt;platform&gt;/file.jpg</code></td><td><code>/clients/nmnlabo/pinterest/post-001.jpg</code></td></tr>
+    </tbody>
+  </table>
+  <p>Use this repository as a stable public asset layer for Pinterest bulk uploads and similar workflows that require direct image URLs.</p>
+</body>
+</html>
